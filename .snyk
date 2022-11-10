@@ -7,4 +7,11 @@ ignore:
         reason: For Fun
         expires: 2022-12-10T15:11:35.505Z
         created: 2022-11-10T15:11:35.507Z
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - tap > tap-mocha-reporter > debug:
+        patched: '2022-11-10T15:16:01.810Z'
+  'npm:ms:20170412':
+    - tap > tap-mocha-reporter > debug > ms:
+        patched: '2022-11-10T15:16:01.810Z'
