@@ -1,6 +1,0 @@
-ignore:
-  npm:adm-zip:20180415:
-    - '*':
-        reason: For Fun
-        expires: 2022-12-10T15:11:35.505Z
-        created: 2022-11-10T15:11:35.507Z
